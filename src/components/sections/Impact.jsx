@@ -26,10 +26,12 @@ const Impact = () => {
   }, [])
 
   const stats = [
-    { number: 50000, label: "Lives Impacted", icon: "👥", suffix: "+", color: "from-pink-500 to-rose-500" },
-    { number: 500, label: "Communities Served", icon: "🏘️", suffix: "+", color: "from-purple-500 to-pink-500" },
-    { number: 10000, label: "Children Educated", icon: "📖", suffix: "+", color: "from-blue-500 to-cyan-500" },
-    { number: 25000, label: "Healthcare Beneficiaries", icon: "❤️", suffix: "+", color: "from-green-500 to-emerald-500" }
+    { number: 12, label: "Years of Activity (2013–2025)", icon: "⏳", suffix: "+", color: "from-pink-500 to-rose-500" },
+    { number: 50000, label: "People Impacted", icon: "👥", suffix: "+", color: "from-purple-500 to-pink-500" },
+    { number: 300, label: "Students Supported", icon: "🎓", suffix: "+", color: "from-blue-500 to-cyan-500" },
+    { number: 7000, label: "Meals Provided (6000–7000)", icon: "🍲", suffix: "+", color: "from-green-500 to-emerald-500" },
+    { number: 220, label: "Villages Covered", icon: "🏡", suffix: "+", color: "from-orange-500 to-yellow-500" },
+    { number: 200, label: "Volunteers Engaged (150–200)", icon: "🤝", suffix: "+", color: "from-indigo-500 to-purple-500" }
   ]
 
   const AnimatedCounter = ({ end, suffix = "", delay = 0 }) => {
@@ -75,8 +77,8 @@ const Impact = () => {
             Our <span className="bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">Impact</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Numbers that reflect our commitment to making a real difference in people's lives. 
-            Every statistic represents a life changed, a community empowered, and hope restored.
+            These milestones capture exactly what PAYANAM FOUNDATION has accomplished—twelve years of action,
+            more than 50,000 people touched, and communities nourished through education, health, food relief, and volunteer power.
           </p>
         </div>
 

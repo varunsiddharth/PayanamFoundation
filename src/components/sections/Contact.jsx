@@ -34,8 +34,8 @@ const Contact = () => {
             Get In <span className="bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">Touch</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            We'd love to hear from you. Reach out to learn more about our programs, volunteer opportunities, 
-            or partnership possibilities.
+            Reach PAYANAM FOUNDATION for partnerships, program support, donations, and volunteer queries.
+            We’re ready to walk with you on this eternal journey.
           </p>
         </div>
 
@@ -43,23 +43,30 @@ const Contact = () => {
           <div className="space-y-8">
             <div>
               <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
-                Contact <span className="bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">Information</span>
+                Contact <span className="bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">PAYANAM FOUNDATION</span>
               </h3>
             </div>
             <div className="space-y-6">
               <div className="flex items-start p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100">
                 <div className="text-4xl mr-4">📍</div>
                 <div>
-                  <h4 className="font-bold text-gray-900 text-lg mb-2">Address</h4>
-                  <p className="text-gray-600 leading-relaxed">123 Charity Street<br />City, State 12345<br />Country</p>
+                  <h4 className="font-bold text-gray-900 text-lg mb-2">Office & Admin Addresses</h4>
+                  <p className="text-gray-600 leading-relaxed">
+                    Office Address:<br />
+                    GG1/204a , Vikaspuri , New Delhi , India- 110018
+                  </p>
+                  <p className="text-gray-600 leading-relaxed mt-3">
+                    Admin Address:<br />
+                    No: 17A, Sakthi Vellammal Street, Avenue Road, Bypass Rd, Madurai, Tamil Nadu, India – 625016
+                  </p>
                 </div>
               </div>
               <div className="flex items-start p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100">
                 <div className="text-4xl mr-4">📧</div>
                 <div>
                   <h4 className="font-bold text-gray-900 text-lg mb-2">Email</h4>
-                  <a href="mailto:info@ngofoundation.org" className="text-pink-600 hover:text-purple-600 transition-colors font-semibold">
-                    info@ngofoundation.org
+                  <a href="mailto:Payanamfoundationindia@gmail.com" className="text-pink-600 hover:text-purple-600 transition-colors font-semibold">
+                    Payanamfoundationindia@gmail.com
                   </a>
                 </div>
               </div>
@@ -67,18 +74,22 @@ const Contact = () => {
                 <div className="text-4xl mr-4">📞</div>
                 <div>
                   <h4 className="font-bold text-gray-900 text-lg mb-2">Phone</h4>
-                  <a href="tel:+15551234567" className="text-pink-600 hover:text-purple-600 transition-colors font-semibold">
-                    +1 (555) 123-4567
-                  </a>
+                  <div className="space-y-1">
+                    <a href="tel:+919843892572" className="text-pink-600 hover:text-purple-600 transition-colors font-semibold block">
+                      9843892572
+                    </a>
+                    <a href="tel:+917094049148" className="text-pink-600 hover:text-purple-600 transition-colors font-semibold block">
+                      7094049148
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
 
             <div className="mt-8 p-6 bg-gradient-to-r from-pink-50 to-purple-50 rounded-2xl">
-              <h4 className="font-bold text-gray-900 mb-4">Office Hours</h4>
-              <p className="text-gray-600">Monday - Friday: 9:00 AM - 6:00 PM</p>
-              <p className="text-gray-600">Saturday: 10:00 AM - 4:00 PM</p>
-              <p className="text-gray-600">Sunday: Closed</p>
+              <h4 className="font-bold text-gray-900 mb-4">Stay Connected</h4>
+              <p className="text-gray-600">Instagram: <a href="https://www.instagram.com/payanam_foundation_india?igsh=MXZmejdsMjRjNW03cw==" className="text-pink-600 hover:text-purple-600 transition-colors">payanam_foundation_india</a></p>
+              <p className="text-gray-600">YouTube: <a href="https://youtube.com/@payanamfoundation4906?si=fdjzN53zZ2J9hZCx" className="text-pink-600 hover:text-purple-600 transition-colors">@payanamfoundation4906</a></p>
             </div>
           </div>
 

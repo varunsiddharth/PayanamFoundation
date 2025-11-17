@@ -33,14 +33,14 @@ const Navbar = () => {
               onClick={() => scrollToSection('home')}
               className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent hover:scale-105 transition-transform duration-200"
             >
-              ❤️ NGO Foundation
+              PAYANAM FOUNDATION
             </button>
           </div>
           
           {/* Desktop Menu */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-1">
-              {['Home', 'About', 'Programs', 'Impact', 'Gallery', 'Contact'].map((item) => (
+              {['Home', 'About', 'Programs', 'Impact', 'Gallery', 'Volunteer', 'Contact'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item.toLowerCase())}
@@ -80,7 +80,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
       <div className={`md:hidden overflow-hidden transition-all duration-300 ${isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
         <div className="px-2 pt-2 pb-4 space-y-1 sm:px-3 bg-white/95 backdrop-blur-md border-t">
-          {['Home', 'About', 'Programs', 'Impact', 'Gallery', 'Contact'].map((item) => (
+          {['Home', 'About', 'Programs', 'Impact', 'Gallery', 'Volunteer', 'Contact'].map((item) => (
             <button
               key={item}
               onClick={() => scrollToSection(item.toLowerCase())}

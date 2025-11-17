@@ -39,21 +39,21 @@ const Hero = () => {
           <div className="space-y-8 animate-fade-in-up">
             <div className="inline-block px-4 py-2 bg-gradient-to-r from-pink-100 to-purple-100 rounded-full mb-4">
               <span className="text-sm font-semibold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
-                ✨ Making Lives Better Since 2014
+                PAYANAM FOUNDATION • An Eternal Journey…
               </span>
             </div>
             
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight">
-              <span className="block text-gray-900">Making a</span>
-              <span className="block bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600 bg-clip-text text-transparent">
-                Real Difference
-              </span>
-              <span className="block text-gray-900">Together</span>
+            {/* UPDATED HEADLINE ONLY */}
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight text-gray-900 max-w-3xl">
+              “Let us walk together on this eternal journey — 
+              <span className="block font-black">'PAYANAM'</span> —
+              <span className="block">toward a sustainable future for generations to come.</span>
             </h1>
             
             <p className="text-xl md:text-2xl text-gray-600 leading-relaxed">
-              We are committed to creating positive change in communities through education, 
-              healthcare, and empowerment programs. Join us in building a better future.
+              Since 2013, we have stood beside communities across Tamil Nadu, nurturing traditional knowledge,
+              creating meaningful livelihoods, and ensuring that every child, youth, farmer, and family can thrive with dignity.
+              Join us as we protect the environment, revive local economies, and carry forward the hope of a just, compassionate future.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -62,7 +62,7 @@ const Hero = () => {
                 className="group relative px-8 py-4 bg-gradient-to-r from-pink-600 to-purple-600 text-white rounded-full font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 overflow-hidden"
               >
                 <span className="relative z-10 flex items-center justify-center gap-2">
-                  💝 Donate Now
+                  💝 Donate
                   <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                   </svg>
@@ -71,10 +71,17 @@ const Hero = () => {
               </button>
               
               <button
-                onClick={() => scrollToSection('programs')}
+                onClick={() => scrollToSection('volunteer')}
                 className="px-8 py-4 bg-white text-pink-600 rounded-full font-bold text-lg border-2 border-pink-600 hover:bg-pink-50 hover:shadow-xl hover:scale-105 transition-all duration-300"
               >
-                Explore Programs
+                Volunteer
+              </button>
+
+              <button
+                onClick={() => scrollToSection('about')}
+                className="px-8 py-4 bg-white text-gray-900 rounded-full font-bold text-lg border-2 border-gray-200 hover:bg-gray-50 hover:shadow-xl hover:scale-105 transition-all duration-300"
+              >
+                Learn More
               </button>
             </div>
 
@@ -83,22 +90,22 @@ const Hero = () => {
               <div className="flex items-center gap-3">
                 <div className="text-3xl">👥</div>
                 <div>
-                  <div className="text-2xl font-bold text-gray-900">50K+</div>
-                  <div className="text-sm text-gray-600">Lives Changed</div>
+                  <div className="text-2xl font-bold text-gray-900">50,000+</div>
+                  <div className="text-sm text-gray-600">People Impacted</div>
                 </div>
               </div>
               <div className="flex items-center gap-3">
-                <div className="text-3xl">🌍</div>
+                <div className="text-3xl">🏡</div>
                 <div>
-                  <div className="text-2xl font-bold text-gray-900">500+</div>
-                  <div className="text-sm text-gray-600">Communities</div>
+                  <div className="text-2xl font-bold text-gray-900">220+</div>
+                  <div className="text-sm text-gray-600">Villages Reached</div>
                 </div>
               </div>
               <div className="flex items-center gap-3">
-                <div className="text-3xl">⭐</div>
+                <div className="text-3xl">⏳</div>
                 <div>
-                  <div className="text-2xl font-bold text-gray-900">10+</div>
-                  <div className="text-sm text-gray-600">Years Active</div>
+                  <div className="text-2xl font-bold text-gray-900">12+</div>
+                  <div className="text-sm text-gray-600">Years of Service</div>
                 </div>
               </div>
             </div>
@@ -130,4 +137,3 @@ const Hero = () => {
 }
 
 export default Hero
-

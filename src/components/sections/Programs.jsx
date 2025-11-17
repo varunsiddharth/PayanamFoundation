@@ -1,52 +1,76 @@
 const Programs = () => {
   const programs = [
     {
-      title: "Education for All",
-      description: "Providing quality education and learning resources to underprivileged children, ensuring they have access to opportunities for a brighter future.",
-      image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&h=400&fit=crop",
-      icon: "📚",
-      color: "from-pink-500 to-rose-500",
-      stats: "15,000+ Students"
+      title: "Sustainable Agriculture Awareness",
+      description: "Werun programs to promote natural farming techniques free of chemical pesticides and fertilizers. By focusing on eco-friendly methods, we help underprivileged farmers improve their livelihoods and create more sustainable communities in Tamil Nadu.",
+      image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&h=400&fit=crop",
+      icon: "🌾",
+      color: "from-green-500 to-emerald-500",
+      stats: "Eco-friendly farming"
     },
     {
-      title: "Healthcare Access",
-      description: "Improving healthcare accessibility in remote areas through mobile clinics, health camps, and awareness programs.",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop",
+      title: "Microcredit for Farmer Groups",
+      description: "Wefacilitate microcredit interventions for Farmer Producer Groups (FPGs) and Farmer Producer Organizations (FPOs). Through partnerships with banks, we provide small loans and financial support that empower local farmers to grow their businesses and improve their economic stability.",
+      image: "https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=600&h=400&fit=crop",
+      icon: "🏦",
+      color: "from-purple-500 to-pink-500",
+      stats: "Community finance"
+    },
+    {
+      title: "Community Health and Medical Camps",
+      description: "Weorganize regular medical camps for roadside and underserved communities in Tamil Nadu, offering free health check-ups and essential care. During pandemics or crises, we also provide food and basic necessities to those in need.",
+      image: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=600&h=400&fit=crop",
       icon: "🏥",
       color: "from-blue-500 to-cyan-500",
-      stats: "25,000+ Patients"
+      stats: "Health outreach"
     },
     {
-      title: "Women Empowerment",
-      description: "Supporting women through skill development, microfinance, and leadership programs to help them achieve economic independence.",
+      title: "Women and Youth Empowerment Initiatives",
+      description: "Weconduct empowerment programs specifically for women and youth, including skill development workshops, MSMEawareness sessions, and recreational activities that build confidence and leadership. Our goal is to foster self-reliance and new opportunities for the next generation.",
+      image: "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=600&h=400&fit=crop",
+      icon: "💪",
+      color: "from-pink-500 to-rose-500",
+      stats: "Confidence building"
+    },
+    {
+      title: "Credit Access for Local Entrepreneurs",
+      description: "In collaboration with local and national banks, we help small entrepreneurs and MSMEs access credit and financial support. This initiative is designed to boost local businesses and create sustainable livelihoods in rural areas.",
+      image: "https://images.unsplash.com/photo-1503387837-b154d5074bd2?w=600&h=400&fit=crop",
+      icon: "💼",
+      color: "from-yellow-500 to-orange-500",
+      stats: "Entrepreneur support"
+    },
+    {
+      title: "Skill-Building for Sustainable Livelihoods",
+      description: "In addition to agriculture training, we run skill-building programs tailored to local needs—teaching everything from small-scale crafts to entrepreneurship. These initiatives help individuals, especially women and youth, create additional income sources and build confidence.",
+      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&h=400&fit=crop",
+      icon: "🛠️",
+      color: "from-teal-500 to-cyan-500",
+      stats: "Livelihood skills"
+    },
+    {
+      title: "Leadership and Mentorship for Youth",
+      description: "Webelieve in nurturing the next generation of leaders. Our mentorship programs connect experienced community members with young people, offering guidance, career advice, and a sense of direction that empowers youth to make positive changes in their communities.",
+      image: "https://images.unsplash.com/photo-1485217988980-11786ced9454?w=600&h=400&fit=crop",
+      icon: "🌟",
+      color: "from-indigo-500 to-blue-500",
+      stats: "Mentorship circles"
+    },
+    {
+      title: "Women’s Self-Help Groups (SHGs)",
+      description: "Weactively support the formation of women’s self-help groups, where women can learn financial literacy, share skills, and support each other’s small enterprises. These groups are a cornerstone of our women empowerment efforts.",
       image: "https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?w=600&h=400&fit=crop",
-     
-      color: "from-purple-500 to-pink-500",
-      stats: "10,000+ Women"
+      icon: "👭",
+      color: "from-red-500 to-pink-500",
+      stats: "Collective strength"
     },
     {
-      title: "Environmental Conservation",
-      description: "Protecting our planet through tree planting initiatives, waste management programs, and environmental education campaigns.",
+      title: "Community-Based Environmental Education",
+      description: "Alongside agriculture, we emphasize the importance of environmental stewardship. We teach farmers and youth about eco-friendly practices like rainwater harvesting and soil conservation, helping them become guardians of their own environment.",
       image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&h=400&fit=crop",
       icon: "🌱",
-      color: "from-green-500 to-emerald-500",
-      stats: "50,000+ Trees"
-    },
-    {
-      title: "Child Welfare",
-      description: "Ensuring every child has access to nutrition, shelter, and protection through comprehensive child welfare programs.",
-      image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=600&h=400&fit=crop",
-      icon: "👶",
-      color: "from-yellow-500 to-orange-500",
-      stats: "8,000+ Children"
-    },
-    {
-      title: "Disaster Relief",
-      description: "Providing immediate aid and long-term recovery support to communities affected by natural disasters and emergencies.",
-      image: "https://images.unsplash.com/photo-1593113598332-cd288d649433?w=600&h=400&fit=crop",
-      icon: "🆘",
-      color: "from-red-500 to-pink-500",
-      stats: "100+ Communities"
+      color: "from-lime-500 to-green-500",
+      stats: "Environmental guardians"
     }
   ]
 
@@ -63,8 +87,8 @@ const Programs = () => {
             Our <span className="bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">Programs</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            We run various programs focused on education, healthcare, community development, and more. 
-            Each program is designed to create lasting, positive change.
+            From natural farming and microcredit to youth mentorship and environmental stewardship, these initiatives carry the full vision of PAYANAM FOUNDATION across Tamil Nadu communities.
+            Each card below features the exact program descriptions shared by our team.
           </p>
         </div>
 

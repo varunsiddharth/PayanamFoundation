@@ -7,11 +7,8 @@ const Footer = () => {
   }
 
   const socialLinks = [
-    { name: 'Facebook', icon: '📘', url: '#' },
-    { name: 'Twitter', icon: '🐦', url: '#' },
-    { name: 'Instagram', icon: '📷', url: '#' },
-    { name: 'LinkedIn', icon: '💼', url: '#' },
-    { name: 'YouTube', icon: '📺', url: '#' }
+    { name: 'Instagram', icon: '📷', url: 'https://www.instagram.com/payanam_foundation_india?igsh=MXZmejdsMjRjNW03cw==' },
+    { name: 'YouTube', icon: '📺', url: 'https://youtube.com/@payanamfoundation4906?si=fdjzN53zZ2J9hZCx' }
   ]
 
   return (
@@ -20,11 +17,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div className="lg:col-span-2">
             <h3 className="text-3xl font-bold bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent mb-4">
-              ❤️ NGO Foundation
+              PAYANAM FOUNDATION
             </h3>
             <p className="text-gray-400 mb-6 leading-relaxed max-w-md">
-              Making a positive impact in communities around the world through education, healthcare, 
-              and empowerment. Join us in creating lasting change.
+              An Eternal Journey… walking alongside communities across Tamil Nadu to strengthen families,
+              grow sustainable livelihoods, and nurture a just, compassionate future for generations to come.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social, index) => (
@@ -64,6 +61,11 @@ const Footer = () => {
                 </button>
               </li>
               <li>
+                <button onClick={() => scrollToSection('volunteer')} className="hover:text-pink-400 transition-colors duration-200">
+                  Volunteer
+                </button>
+              </li>
+              <li>
                 <button onClick={() => scrollToSection('contact')} className="hover:text-pink-400 transition-colors duration-200">
                   Contact Us
                 </button>
@@ -81,19 +83,19 @@ const Footer = () => {
             <ul className="space-y-3 text-gray-400">
               <li className="flex items-start gap-3">
                 <span className="text-pink-400">📧</span>
-                <a href="mailto:info@ngofoundation.org" className="hover:text-pink-400 transition-colors">
-                  info@ngofoundation.org
+                <a href="mailto:Payanamfoundationindia@gmail.com" className="hover:text-pink-400 transition-colors">
+                  Payanamfoundationindia@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-pink-400">📞</span>
-                <a href="tel:+15551234567" className="hover:text-pink-400 transition-colors">
-                  +1 (555) 123-4567
+                <a href="tel:+919843892572" className="hover:text-pink-400 transition-colors">
+                  9843892572 / 7094049148
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-pink-400">📍</span>
-                <span>123 Charity Street<br />City, State 12345<br />Country</span>
+                <span>No: 17A, Sakthi Vellammal Street, Avenue Road, Bypass Rd,<br />Madurai, Tamil Nadu, India – 625016</span>
               </li>
             </ul>
           </div>
@@ -102,7 +104,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-center md:text-left">
-              &copy; {new Date().getFullYear()} NGO Foundation. All rights reserved.
+              &copy; {new Date().getFullYear()} PAYANAM FOUNDATION. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm text-gray-400">
               <a href="#" className="hover:text-pink-400 transition-colors">Privacy Policy</a>

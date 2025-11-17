@@ -7,9 +7,9 @@ const Donate = () => {
 
   const amounts = [25, 50, 100, 250, 500, 1000]
   const donationTypes = [
-    { id: 'one-time', label: 'One-Time', icon: '💝', desc: 'Make a single donation' },
-    { id: 'monthly', label: 'Monthly', icon: '🔄', desc: 'Give monthly automatically' },
-    { id: 'annual', label: 'Annual', icon: '📅', desc: 'Make a yearly contribution' }
+    { id: 'options', label: 'Donation Options', icon: '💝', desc: 'Donation options (payment gateway under development.)' },
+    { id: 'bank', label: 'Bank Transfer', icon: '🏦', desc: 'Account Name: PAYANAM FOUNDATION • Bank of India (BOI)' },
+    { id: 'impact', label: 'Why Give', icon: '🌱', desc: 'Every contribution keeps our eternal journey moving forward.' }
   ]
 
   const handleSubmit = (e) => {
@@ -34,12 +34,18 @@ const Donate = () => {
         <div className="text-center mb-16 text-white">
           <div className="text-6xl mb-6">❤️</div>
           <h2 className="text-5xl md:text-6xl font-extrabold mb-6">
-            Make a <span className="text-yellow-300">Difference</span>
+            Fuel the <span className="text-yellow-300">PAYANAM</span> Journey
           </h2>
-          <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-            Your contribution helps us continue our mission to transform lives and communities. 
-            Every dollar makes an impact.
-          </p>
+          <div className="text-xl md:text-2xl text-white/90 max-w-4xl mx-auto leading-relaxed space-y-4">
+            <p>
+              At Payanam Foundation, every donation is a step forward on our shared journey toward a brighter future.
+              Your support helps us empower farmers with sustainable agriculture, uplift women and youth through education and skills, and create lasting change in over 220 villages.
+            </p>
+            <p>
+              When you donate, you're not just giving funds you're giving hope, opportunities, and a stronger foundation for families to thrive.
+              Whether it's helping us provide meals in times of crisis, supporting a child's education, or funding a microloan for a local entrepreneur, your generosity makes a real difference.
+            </p>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
@@ -58,6 +64,22 @@ const Donate = () => {
               <p className="text-sm opacity-80">{type.desc}</p>
             </button>
           ))}
+        </div>
+
+        <div className="bg-white/10 backdrop-blur-md rounded-3xl border border-white/30 p-8 text-white space-y-4 mb-12">
+          <p>Donation options (payment gateway under development.)</p>
+          <div className="space-y-1 text-sm md:text-base">
+            <p>Account Name: PAYANAM FOUNDATION</p>
+            <p>Bank Name: Bank of India (BOI)</p>
+            <p>Account Number: 826810210000008</p>
+            <p>Branch Code: 8268</p>
+            <p>IFSC Code: BKID0008268</p>
+            <p>Bank Address: No: 72, New No: 128, Ponmeni, S.S. Colony, By-pass Road, Madurai, Tamilnadu- 625010.</p>
+          </div>
+          <p>
+            Join us on this eternal journey- let's walk together toward a sustainable future. Every contribution, big or small, brings us one step closer to a better tomorrow.
+            Donate Now and be a part of our mission!
+          </p>
         </div>
 
         <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-12">
@@ -167,11 +189,16 @@ const Donate = () => {
               💝 Donate Now
             </button>
 
-            <p className="text-center text-sm text-gray-600">
-              🔒 Secure payment processing. Your donation is tax-deductible. 
-              <br />
-              Firebase integration ready for payment processing.
-            </p>
+            <div className="text-center text-sm text-gray-600 space-y-2">
+              <p>
+                At Payanam Foundation, every donation is a step forward on our shared journey toward a brighter future.
+                Your support helps us empower farmers with sustainable agriculture, uplift women and youth through education and skills, and create lasting change in over 220 villages.
+              </p>
+              <p>
+                When you donate, you're not just giving funds you're giving hope, opportunities, and a stronger foundation for families to thrive.
+                Join us on this eternal journey- let's walk together toward a sustainable future.
+              </p>
+            </div>
           </form>
         </div>
       </div>
